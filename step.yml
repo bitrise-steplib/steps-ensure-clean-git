@@ -1,5 +1,7 @@
 title: "Ensure clean git"
-summary: Make sure there are no uncommitted changes in the git repository
+summary: |-
+  Make sure your repo is clean as a whistle, no uncommitted changes,
+  nothing to hide.
 description: |-
   Fails if there's any uncommitted change in the git repository.
 
