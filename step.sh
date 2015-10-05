@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 if [ ! -z "${dir_to_check}" ] ; then
   echo "Changing directory to:"
   echo "${dir_to_check}"
