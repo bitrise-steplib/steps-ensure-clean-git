@@ -3,8 +3,7 @@
 set -e
 
 if [ ! -z "${dir_to_check}" ] ; then
-  echo "Changing directory to:"
-  echo "${dir_to_check}"
+  echo "Changing directory to: ${dir_to_check}"
   cd ${dir_to_check}
 fi
 
