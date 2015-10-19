@@ -17,3 +17,13 @@ type_tags:
 is_requires_admin_user: false
 is_always_run: false
 is_skippable: false
+inputs:
+  - dir_to_check:
+    opts:
+      title: "The directory to check if contains any uncommitted changes"
+      summary: ""
+      description: |-
+        The path that will be scanned for any uncommitted files. By default it is the current directory.
+      is_required: false
+      is_expand: true
+      is_dont_change_value: false
