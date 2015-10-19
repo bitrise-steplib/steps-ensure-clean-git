@@ -12,4 +12,4 @@ workflows:
     - path::./:
         run_if: true
         inputs:
-            - dir_to_check: ${GIT_DIRECTORY}
+        - dir_to_check: ${GIT_DIRECTORY}
